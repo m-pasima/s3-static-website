@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f6f6f6;
+}
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+nav a {
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+.hero {
+  background: url('https://images.unsplash.com/photo-1521335629791-ce4aec67dd59?auto=format&fit=crop&w=1200&q=60') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+.products {
+  padding: 2rem 1rem;
+}
+.products h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.item {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.item img {
+  max-width: 100%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.item h3 {
+  margin: 0.5rem 0 0.25rem;
+  font-size: 1.1rem;
+}
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
