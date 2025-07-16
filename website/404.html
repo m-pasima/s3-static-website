@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found | Kikivy Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Kikivy Platform</h1>
+    <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+    <nav>
+      <a href="/#shoes" aria-label="Shop Shoes">Shoes</a>
+      <a href="/#clothes" aria-label="Shop Clothes">Clothes</a>
+      <a href="/#kids" aria-label="Shop Kids Collection">Kids</a>
+      <a href="/#sales" aria-label="Shop Sales">Sales</a>
+    </nav>
+  </header>
+  <section class="error-page">
+    <h2>404 - Page Not Found</h2>
+    <p>Sorry, the page you're looking for doesn't exist.</p>
+    <a href="/" class="btn btn-primary">Return to Home</a>
+  </section>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <img src="/images/logo.webp" alt="Kikivy Logo" class="footer-logo" loading="lazy">
+        <h3>Contact Us</h3>
+        <p>Email: passypet@gmail.com</p>
+        <p>Phone: +44 7533 020152</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <div class="footer-links">
+          <a href="/#shoes">Shoes</a>
+          <a href="/#clothes">Clothes</a>
+          <a href="/#kids">Kids</a>
+          <a href="/#sales">Sales</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://facebook.com/kikivy" target="_blank" aria-label="Follow on Facebook">Facebook</a>
+          <a href="https://instagram.com/kikivy" target="_blank" aria-label="Follow on Instagram">Instagram</a>
+          <a href="https://twitter.com/kikivy" target="_blank" aria-label="Follow on Twitter">Twitter</a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Newsletter</h3>
+        <p>Subscribe for exclusive updates and offers!</p>
+        <div class="newsletter">
+          <input type="email" placeholder="Enter your email" aria-label="Email for newsletter">
+          <button class="btn btn-primary">Subscribe</button>
+        </div>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2025 Kikivy. All rights reserved.</p>
+  </footer>
+  <script>
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      document.querySelector('nav').classList.toggle('active');
+    });
+  </script>
+</body>
+</html> 
