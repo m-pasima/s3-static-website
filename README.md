@@ -124,8 +124,6 @@ Before you begin, ensure you have:
 
 * Open the S3 endpoint in a browser (e.g., `http://your-bucket-name.s3-website-your-region.amazonaws.com`).
 * Use incognito mode or clear your browser cache to ensure fresh content loads.
-
-
 * **Sales Banner** : Confirm the “Sale!” banner flashes with a pulsing animation.
 * **Coupons** : Test the “Copy Code” buttons (`KIKIVY10`, `FREESHIP50`, `SALE20`) to ensure they copy codes to the clipboard.
 * **Responsive Design** : Test on mobile devices to verify the mobile menu and layout.
